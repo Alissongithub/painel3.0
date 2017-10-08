@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "\033[1;34mINICIANDO A INSTALACAO"
+echo "INICIANDO A INSTALACAO"
 sleep 3
 apt-get update && apt-get upgrade -y
 apt-get install curl -y
@@ -22,4 +22,4 @@ apt-get install unzip -y
 unzip painelssh.zip
 rm painelssh.zip index.html
 clear
-echo "\033[1;34mFINALIZADO COM SUCESSO"
+echo "FINALIZADO COM SUCESSO"
