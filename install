@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "INICIANDO A INSTALACAO"
 apt-get update && apt-get upgrade -y
 apt-get install curl -y
 apt-get install apache2 -y
@@ -19,5 +20,6 @@ wget https://raw.githubusercontent.com/Alissongithub/painel3.0/master/painelssh.
 apt-get install unzip -y
 unzip painelssh.zip
 rm painelssh.zip index.html
+exit
 clear
-echo -e "\033[1;31mCOMPLETADO COM SUCESSO.\033[0m"
+echo "FINALIZADO COM SUCESSO"
